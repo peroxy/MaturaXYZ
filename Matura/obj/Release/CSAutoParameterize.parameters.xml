@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MaturaDBConnectionString-Web.config Connection String" description="MaturaDBConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=maturadb.database.windows.net;Initial Catalog=MaturaDB;User ID=peroxy;Password=Deodorant95;Connect Timeout=60" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="F:\\Documents\\Visual\ Studio\ 2015\\Projects\\Web\\Matura\\Matura\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MaturaDBConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

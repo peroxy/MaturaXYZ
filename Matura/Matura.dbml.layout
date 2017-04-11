@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Matura">
+  <DataContextMoniker Name="/MaturaDataContext" />
+  <nestedChildShapes>
+    <classShape Id="de62a673-027c-4223-a30c-825b3e4be526" absoluteBounds="3.5, 1, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/MaturaDataContext/Question" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a6bf0e93-e61a-4741-8b88-3bd70bdc925c" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b46a797b-c810-48e0-ae2e-3e0845c985b9" absoluteBounds="0.75, 1.625, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/MaturaDataContext/Subject" />
+      <nestedChildShapes>
+        <elementListCompartment Id="84438286-4c25-42be-946e-9efc8a79a075" absoluteBounds="0.765, 2.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bdcc1b42-9b08-43f5-8551-b306fecb9fc7" absoluteBounds="0.75, 3.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MaturaDataContext/UserData" />
+      <nestedChildShapes>
+        <elementListCompartment Id="54ba9cf1-9386-4684-bf91-c7ecd5932366" absoluteBounds="0.765, 3.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1b457832-ac53-49cf-b519-7d67930a409e" absoluteBounds="6, 1.125, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/MaturaDataContext/v_Question" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eac78c54-ade4-40e8-9adc-b3e225059bad" absoluteBounds="6.0150000000000006, 1.585, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.22199625651042); (3.5 : 2.22199625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MaturaDataContext/Subject/Subject_Question" />
+      <nodes>
+        <classShapeMoniker Id="b46a797b-c810-48e0-ae2e-3e0845c985b9" />
+        <classShapeMoniker Id="de62a673-027c-4223-a30c-825b3e4be526" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.11380176953125); (3.59375 : 4.11380176953125); (3.59375 : 3.5401025390625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MaturaDataContext/UserData/UserData_Question" />
+      <nodes>
+        <classShapeMoniker Id="bdcc1b42-9b08-43f5-8551-b306fecb9fc7" />
+        <classShapeMoniker Id="de62a673-027c-4223-a30c-825b3e4be526" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
